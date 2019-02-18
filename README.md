@@ -7,7 +7,7 @@ BPGen operates with modules and templates. Modules and templates are just simple
 
 Once you call `generate-module`, BPGen checks if all used parameters in templates are provided, then create a new file based on a template configuration file, a template file and themselves provided parameters. BPGen is looking for parameter names in the template file and replaces them with provided values. BPGen also applies it on `path_to_generated_file` setting in the template configuration file.
 
-Example is [here](https://github.com/EhwaZoom/bpgen).
+Example is [here](https://github.com/EhwaZoom/bpgen/tree/master/example).
 
 ## Installation
 1. Clone this repository
