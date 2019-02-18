@@ -1,0 +1,7 @@
+using System;
+using System.Threading.Tasks;
+using foo.Domain.Entities;
+
+namespace foo.Data.Repositories {
+    public interface I${entity_name}Repository : INHibernateRepository<${entity_name}, Guid> { }
+}

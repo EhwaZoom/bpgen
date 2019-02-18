@@ -1,0 +1,11 @@
+using FluentNHibernate.Mapping;
+using foo.Domain.Entities;
+
+namespace foo.Data.Mappings {
+    public class ${entity_name}Mapping : ClassMap<${entity_name}> {
+        public ${entity_name}Mapping() {
+            Table("${table_name}");
+            Id(x => x.Id).GeneratedBy.GuidComb();
+        }
+    }
+}

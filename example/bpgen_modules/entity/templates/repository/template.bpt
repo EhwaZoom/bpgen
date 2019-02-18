@@ -1,0 +1,11 @@
+using System;
+using foo.Data.Database;
+using foo.Domain.Entities;
+using NHibernate;
+
+namespace mes_backend.Data.Repositories {
+    public class ${entity_name}Repository : NHibernateRepository<${entity_name}, Guid>, I${entity_name}Repository {
+        public ${entity_name}Repository(IUnitOfWork<ISession> uow) : base(uow) { }
+        }
+    }
+}

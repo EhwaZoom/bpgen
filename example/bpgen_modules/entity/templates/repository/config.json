@@ -1,0 +1,7 @@
+{
+    "parameter_pattern": {
+        "parameter_name": "VAR",
+        "pattern": "${VAR}"
+    },
+    "path_to_generated_file": "Data/Repositories/${entity_name}Repository/${entity_name}Repository.cs"
+}
