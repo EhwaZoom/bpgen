@@ -23,7 +23,7 @@ def generate_template(
     parameters: List[Parameter],
     config: Config
 ):
-    """Generate as single template from the module."""
+    """Generate a single template from the module."""
     path_to_generated_file = config.path_to_generated_file
     for parameter in parameters:
         source = source.replace(parameter.formatted_name, parameter.value)
