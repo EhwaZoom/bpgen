@@ -6,6 +6,5 @@ using NHibernate;
 namespace mes_backend.Data.Repositories {
     public class UserRepository : NHibernateRepository<User, Guid>, IUserRepository {
         public UserRepository(IUnitOfWork<ISession> uow) : base(uow) { }
-        }
     }
 }
